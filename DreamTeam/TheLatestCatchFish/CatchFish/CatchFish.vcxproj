@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{524FFEDE-EADC-4E9C-B4D2-2455A852BD9F}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>CatchFish</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Back.cpp" />
+    <ClCompile Include="BigFish.cpp" />
+    <ClCompile Include="BlueWhale.cpp" />
+    <ClCompile Include="Bullet.cpp" />
+    <ClCompile Include="BulletOne.cpp" />
+    <ClCompile Include="BulletThree.cpp" />
+    <ClCompile Include="BulletTwo.cpp" />
+    <ClCompile Include="Capture.cpp" />
+    <ClCompile Include="CCaptureCtrl.cpp" />
+    <ClCompile Include="ElectricRay.cpp" />
+    <ClCompile Include="Fish.cpp" />
+    <ClCompile Include="Frog.cpp" />
+    <ClCompile Include="GoldCoin.cpp" />
+    <ClCompile Include="GoldFish.cpp" />
+    <ClCompile Include="GoldenDragon.cpp" />
+    <ClCompile Include="GoldenFish.cpp" />
+    <ClCompile Include="Level.cpp" />
+    <ClCompile Include="Mermaid.cpp" />
+    <ClCompile Include="Net.cpp" />
+    <ClCompile Include="PurpleFish.cpp" />
+    <ClCompile Include="SmallFish.cpp" />
+    <ClCompile Include="Tuna.cpp" />
+    <ClCompile Include="Turtle.cpp" />
+    <ClCompile Include="WinMain.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Back.h" />
+    <ClInclude Include="BigFish.h" />
+    <ClInclude Include="BlueWhale.h" />
+    <ClInclude Include="Bullet.h" />
+    <ClInclude Include="BulletOne.h" />
+    <ClInclude Include="BulletThree.h" />
+    <ClInclude Include="BulletTwo.h" />
+    <ClInclude Include="Capture.h" />
+    <ClInclude Include="CCaptureCtrl.h" />
+    <ClInclude Include="CGameCtrl.h" />
+    <ClInclude Include="ElectricRay.h" />
+    <ClInclude Include="Fish.h" />
+    <ClInclude Include="Frog.h" />
+    <ClInclude Include="GoldCoin.h" />
+    <ClInclude Include="GoldFish.h" />
+    <ClInclude Include="GoldenDragon.h" />
+    <ClInclude Include="GoldenFish.h" />
+    <ClInclude Include="Level.h" />
+    <ClInclude Include="Mermaid.h" />
+    <ClInclude Include="Net.h" />
+    <ClInclude Include="PurpleFish.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="SmallFish.h" />
+    <ClInclude Include="sys.h" />
+    <ClInclude Include="Tuna.h" />
+    <ClInclude Include="Turtle.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CatchFish.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="pic\BigFish_Black.bmp" />
+    <Image Include="pic\BigFish_White.bmp" />
+    <Image Include="pic\changeroom.bmp" />
+    <Image Include="pic\CursorWhite.bmp" />
+    <Image Include="pic\ElectricRay_Black.bmp" />
+    <Image Include="pic\ElectricRay_White.bmp" />
+    <Image Include="pic\flygold.bmp" />
+    <Image Include="pic\flygold副本.bmp" />
+    <Image Include="pic\Frog_Black.bmp" />
+    <Image Include="pic\Frog_White.bmp" />
+    <Image Include="pic\GoldDragonFish_Black.bmp" />
+    <Image Include="pic\GoldDragonFish_White.bmp" />
+    <Image Include="pic\goldfish1.bmp" />
+    <Image Include="pic\goldfish2.bmp" />
+    <Image Include="pic\gun13 - 副本_副本.bmp" />
+    <Image Include="pic\gun13 - 副本_副本_副本.bmp" />
+    <Image Include="pic\gun13 - 副本子弹副本.bmp" />
+    <Image Include="pic\gun13_副本.bmp" />
+    <Image Include="pic\gun13_副本_副本.bmp" />
+    <Image Include="pic\gun13_子弹副本.bmp" />
+    <Image Include="pic\gun53 - 15minusr.bmp" />
+    <Image Include="pic\gun53 - 15minus_副本.bmp" />
+    <Image Include="pic\gun53 - 90minus.bmp" />
+    <Image Include="pic\gun53_15plusr_副本.bmp" />
+    <Image Include="pic\gun53_15plus_.bmp" />
+    <Image Include="pic\gun53_90plus.bmp" />
+    <Image Include="pic\gunbase - 副本.bmp" />
+    <Image Include="pic\gunbase.bmp" />
+    <Image Include="pic\gungreen.bmp" />
+    <Image Include="pic\gungreen15L.bmp" />
+    <Image Include="pic\gungreen15L_副本.bmp" />
+    <Image Include="pic\gungreen15R.bmp" />
+    <Image Include="pic\gungreen15R_副本.bmp" />
+    <Image Include="pic\gungreen_副本.bmp" />
+    <Image Include="pic\guns15-副本.bmp" />
+    <Image Include="pic\guns15.bmp" />
+    <Image Include="pic\guns52 - 副本.bmp" />
+    <Image Include="pic\guns52 - 正副本_副本.bmp" />
+    <Image Include="pic\guns52.bmp" />
+    <Image Include="pic\guns52_正副本.bmp" />
+    <Image Include="pic\head3 - 副本.bmp" />
+    <Image Include="pic\head3.bmp" />
+    <Image Include="pic\leleCatchFish.bmp" />
+    <Image Include="pic\map_0.bmp" />
+    <Image Include="pic\map_1.bmp" />
+    <Image Include="pic\map_2.bmp" />
+    <Image Include="pic\Mermaid_Black.bmp" />
+    <Image Include="pic\Mermaid_White.bmp" />
+    <Image Include="pic\net_80.bmp" />
+    <Image Include="pic\net_81.bmp" />
+    <Image Include="pic\net_81副本.bmp" />
+    <Image Include="pic\net_82.bmp" />
+    <Image Include="pic\PurpleFish_Black.bmp" />
+    <Image Include="pic\PurpleFish_White.bmp" />
+    <Image Include="pic\RedFish_Black.bmp" />
+    <Image Include="pic\RedFish_White.bmp" />
+    <Image Include="pic\shark_Black.bmp" />
+    <Image Include="pic\shark_White.bmp" />
+    <Image Include="pic\SmallFish_Black.bmp" />
+    <Image Include="pic\SmallFish_White.bmp" />
+    <Image Include="pic\TunaFish_Black.bmp" />
+    <Image Include="pic\TunaFish_White.bmp" />
+    <Image Include="pic\turtlr1.bmp" />
+    <Image Include="pic\turtlr2.bmp" />
+    <Image Include="pic\VGoldFish_Black.bmp" />
+    <Image Include="pic\VGoldFish_White.bmp" />
+    <Image Include="pic\zqb_1.bmp" />
+    <Image Include="pic\zqb_1副本.bmp" />
+    <Image Include="pic\zqb_2.bmp" />
+    <Image Include="pic\zqb_2副本.bmp" />
+    <Image Include="pic\zqb_3.bmp" />
+    <Image Include="pic\zqb_3副本.bmp" />
+    <Image Include="pic\zqb_4.bmp" />
+    <Image Include="pic\zqb_4副本.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="pic\00.cur" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

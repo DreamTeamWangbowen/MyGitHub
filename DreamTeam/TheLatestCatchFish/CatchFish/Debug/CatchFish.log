@@ -1,0 +1,66 @@
+﻿生成启动时间为 2017/8/2 8:51:11。
+     1>项目“F:\小白的新treasture chest\DreamTeam\TheLatestCatchFish\CatchFish\CatchFish.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\VS2012\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Back.cpp BigFish.cpp BlueWhale.cpp Bullet.cpp BulletOne.cpp BulletThree.cpp BulletTwo.cpp Capture.cpp CCaptureCtrl.cpp ElectricRay.cpp Fish.cpp Frog.cpp GoldCoin.cpp GoldFish.cpp GoldenDragon.cpp GoldenFish.cpp Level.cpp Mermaid.cpp Net.cpp PurpleFish.cpp SmallFish.cpp Tuna.cpp Turtle.cpp WinMain.cpp
+         WinMain.cpp
+         Turtle.cpp
+         Tuna.cpp
+         SmallFish.cpp
+         PurpleFish.cpp
+         Net.cpp
+         Mermaid.cpp
+         Level.cpp
+         GoldenFish.cpp
+         GoldenDragon.cpp
+         GoldFish.cpp
+         GoldCoin.cpp
+         Frog.cpp
+         Fish.cpp
+         ElectricRay.cpp
+         CCaptureCtrl.cpp
+         Capture.cpp
+         BulletTwo.cpp
+         BulletThree.cpp
+         BulletOne.cpp
+         正在生成代码...
+         正在编译...
+         Bullet.cpp
+         BlueWhale.cpp
+         BigFish.cpp
+         Back.cpp
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\rc.exe /l"0x0409" /nologo /fo"Debug\CatchFish.res" CatchFish.rc 
+       Link:
+         D:\VS2012\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\小白的新treasture chest\DreamTeam\TheLatestCatchFish\Debug\CatchFish.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\小白的新treasture chest\DreamTeam\TheLatestCatchFish\Debug\CatchFish.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\小白的新treasture chest\DreamTeam\TheLatestCatchFish\Debug\CatchFish.lib" /MACHINE:X86 Debug\CatchFish.res
+         Debug\Back.obj
+         Debug\BigFish.obj
+         Debug\BlueWhale.obj
+         Debug\Bullet.obj
+         Debug\BulletOne.obj
+         Debug\BulletThree.obj
+         Debug\BulletTwo.obj
+         Debug\Capture.obj
+         Debug\CCaptureCtrl.obj
+         Debug\ElectricRay.obj
+         Debug\Fish.obj
+         Debug\Frog.obj
+         Debug\GoldCoin.obj
+         Debug\GoldFish.obj
+         Debug\GoldenDragon.obj
+         Debug\GoldenFish.obj
+         Debug\Level.obj
+         Debug\Mermaid.obj
+         Debug\Net.obj
+         Debug\PurpleFish.obj
+         Debug\SmallFish.obj
+         Debug\Tuna.obj
+         Debug\Turtle.obj
+         Debug\WinMain.obj
+         LINK : 没有找到 F:\小白的新treasture chest\DreamTeam\TheLatestCatchFish\Debug\CatchFish.exe 或上一个增量链接没有生成它；正在执行完全链接
+         CatchFish.vcxproj -> F:\小白的新treasture chest\DreamTeam\TheLatestCatchFish\Debug\CatchFish.exe
+     1>已完成生成项目“F:\小白的新treasture chest\DreamTeam\TheLatestCatchFish\CatchFish\CatchFish.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:24.86

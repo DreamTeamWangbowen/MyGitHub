@@ -1,0 +1,405 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WinMain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CCaptureCtrl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Back.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Capture.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletOne.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletTwo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletThree.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Fish.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BigFish.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SmallFish.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Turtle.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BlueWhale.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PurpleFish.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GoldenFish.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Frog.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Tuna.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ElectricRay.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Mermaid.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GoldenDragon.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GoldFish.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Net.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GoldCoin.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Level.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CGameCtrl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CCaptureCtrl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Back.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sys.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Capture.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletOne.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletTwo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletThree.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Fish.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BigFish.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SmallFish.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Turtle.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BlueWhale.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PurpleFish.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GoldenFish.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Frog.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Tuna.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ElectricRay.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Mermaid.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GoldenDragon.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GoldFish.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Net.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GoldCoin.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Level.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CatchFish.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="pic\map_0.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="pic\map_1.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="pic\map_2.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="pic\changeroom.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="pic\gunbase - 副本.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="pic\gunbase.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="pic\guns52.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="pic\guns52 - 副本.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="pic\gun13_副本.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="pic\gun13 - 副本_副本.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="pic\guns15.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="pic\gun13_副本_副本.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="pic\guns15-副本.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="pic\guns52_正副本.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="pic\guns52 - 正副本_副本.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="pic\gun13_子弹副本.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="pic\gun13 - 副本子弹副本.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="pic\gun13 - 副本_副本_副本.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="pic\gun53 - 15minusr.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="pic\gun53 - 15minus_副本.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="pic\gun53 - 90minus.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="pic\gun53_15plusr_副本.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="pic\gun53_15plus_.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="pic\gun53_90plus.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="pic\gungreen.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="pic\gungreen_副本.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="pic\gungreen15L_副本.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="pic\gungreen15L.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="pic\gungreen15R.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="pic\gungreen15R_副本.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="pic\head3.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="pic\head3 - 副本.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="pic\leleCatchFish.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="pic\CursorWhite.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="pic\BigFish_Black.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="pic\BigFish_White.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="pic\ElectricRay_Black.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="pic\ElectricRay_White.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="pic\Frog_Black.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="pic\Frog_White.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="pic\goldfish1.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="pic\goldfish2.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="pic\Mermaid_Black.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="pic\Mermaid_White.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="pic\PurpleFish_Black.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="pic\PurpleFish_White.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="pic\RedFish_Black.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="pic\RedFish_White.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="pic\shark_Black.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="pic\shark_White.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="pic\SmallFish_Black.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="pic\SmallFish_White.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="pic\TunaFish_Black.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="pic\TunaFish_White.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="pic\turtlr1.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="pic\turtlr2.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="pic\VGoldFish_Black.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="pic\VGoldFish_White.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="pic\GoldDragonFish_Black.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="pic\GoldDragonFish_White.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="pic\net_81.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="pic\net_81副本.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="pic\net_82.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="pic\net_80.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="pic\flygold.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="pic\flygold副本.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="pic\zqb_1.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="pic\zqb_1副本.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="pic\zqb_2.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="pic\zqb_2副本.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="pic\zqb_3.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="pic\zqb_3副本.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="pic\zqb_4.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="pic\zqb_4副本.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="pic\00.cur">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+</Project>

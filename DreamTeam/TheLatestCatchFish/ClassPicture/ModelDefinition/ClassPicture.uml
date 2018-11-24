@@ -1,0 +1,2241 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm10="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ActivityDesigner"
+  dslVersion="1.0.0.0"
+  Id="4e2b94d4-b3f5-4bc5-9175-b7d649d00a7c"
+  name="ClassPicture" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b">
+      <profileInstance
+        Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791"
+        name="StandardProfileL2" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="29349502-908c-4fda-9054-c48619c59ed0">
+      <profileInstance
+        Id="532ea607-fb19-44b8-8502-3351b05452be"
+        name="StandardProfileL3" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="55361bff-02af-4ac6-a729-309ed7fa3c80"
+        name="CBack"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <ownedAttributesInternal>
+          <property
+            Id="0bd1c2b7-7d0c-49bc-9788-d5ad5ca73b0d"
+            name="int x"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="82e89ff2-1a67-4aea-af9c-10d8c5d0e3c1"
+            name="int y"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="8905c944-bb38-41d3-8376-9c4f922f7606"
+            name="HBITMAP m_hBmpBack"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="861bbc24-d889-42a6-8cc5-c13e73f4cc38"
+            name="HBITMAP m_hBackOne"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="789532a7-1ec9-4044-8a3f-70b46c47119b"
+            name="HBITMAP m_hBackTwo"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="8e702b6f-9a20-4bc4-940f-c56a85e96f9b"
+            name="HBITMAP m_hBackThree"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="e7877d78-c933-489c-8ab6-947c023db37e"
+            name="void ShowBack"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="bf6c5bb1-3d6b-4e33-a416-61ce70a7edb8"
+                  name="HDC hMemDC"
+                  direction="In"
+                  isUnique="false" />
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="9092e184-4f96-4658-9dbd-1c9d0c761f04"
+            name="void ChangeBack"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="d88d3795-29ec-4f0a-9d9a-731db6b066e7"
+            name="void InitBack"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="dba50375-8f31-496e-b5d1-41d8712f96c5"
+                  name="HINSTANCE hIns"
+                  direction="In"
+                  isUnique="false" />
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="1d31ad9f-ffd0-4638-8f14-4b64299ad08c"
+        name="CCapture"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <ownedAttributesInternal>
+          <property
+            Id="9e01063b-ed40-4ba6-a6c9-22edd58338e0"
+            name="int x"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="d54934fe-2720-4ba2-90f5-14dd956ce7ea"
+            name="int y"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="10007397-f6b9-477a-ae65-910fbf82bf36"
+            name="HBITMAP m_hBmpCapture"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="3f2bf2f3-dfea-4e55-a0ca-43cf3cf2e5c1"
+            name="int m_nBulletCount"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="0465e0af-52fb-451c-ae3a-851262ce3e55"
+            name="void InitCapture"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="a5a3557d-0b8f-4c34-b29a-bb98b3ab1faa"
+                  name="HISTANCE hIns"
+                  direction="In"
+                  isUnique="false" />
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="c0d77d24-c4c1-4d0b-8d5e-61eba457483d"
+            name="void ShowCapture"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="4af41ec5-56d8-4047-b8d3-92fadeb11cdf"
+                  name="HDC hMemDC"
+                  direction="In"
+                  isUnique="false" />
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="6bc10547-f9de-4f96-8195-ddf1b85dd419"
+            name="void SendBullet"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="3b18483b-1930-41e3-96ed-8a91dfb126dc"
+                  name="+ list&lt;CBullet*&gt;&amp;m_lstBullet"
+                  direction="In"
+                  isUnique="false" />
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="b14bf63f-4f93-4a94-8c0b-62c0af612032"
+                  name="HINSTANCE hIns"
+                  direction="In"
+                  isUnique="false" />
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="b46bd1c6-ed97-4316-9b74-4229199cb61c"
+            name="void ChangeDirection"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="71bb65bf-b8da-4b5c-89b2-9eb15eb8dcb8"
+                  name="int Direction"
+                  direction="In"
+                  isUnique="false" />
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="65c41fb8-8881-47bb-98be-0eb2ec53b1c6"
+        name="CBullet"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <targetEnds>
+          <association
+            Id="69e08ba3-32a1-4856-b9f4-b808188ff5d6"
+            isDerived="false"
+            sourceEndRoleName="CBullet"
+            targetEndRoleName="CCaptureCtrl"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="ae0b4635-c7fa-4852-89df-ffbb2380fc8c"
+              LastKnownName="CCaptureCtrl"
+              LastKnownLocation="ClassPicture.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="cb1a6bbe-7283-4572-aa85-94af44e650e0"
+                  name="CBullet"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="Shared"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="644cd9a6-f7d7-4a7c-9516-f5ea79625f13"
+                  name="CCaptureCtrl"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property
+            Id="49e8117b-2c24-4428-8f29-adc5da2ad163"
+            name="int x"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="e80a4549-f25c-43a9-8908-e5417f5caabe"
+            name="int y"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="790e7967-5ace-47dc-a025-b7ef15ae5f86"
+            name="HBITMAP m_hBmpBullet"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="45cd9b9a-2a43-47b3-9089-41f9a02b8557"
+            name="void InitBullet"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="743e5863-d4bf-46ce-94b3-98bafeb45390"
+                  name="int x"
+                  direction="In"
+                  isUnique="false" />
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="94fdf6d9-47e6-4da8-abd8-57cfb0a6e1fd"
+                  name="int y"
+                  direction="In"
+                  isUnique="false" />
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="16fcdb88-95ad-4736-808c-50a2d011260b"
+                  name="HINSTANCE hIns"
+                  direction="In"
+                  isUnique="false" />
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="93dac236-b205-4a84-9e75-b2c01f5a6588"
+            name="void ShowBullet"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="65159dff-3be5-4854-a2c4-5d33cabd159f"
+                  name="HDC hMemDC"
+                  direction="In"
+                  isUnique="false" />
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="6166aaa3-b44f-49c6-bc08-3a8d20d2f992"
+            name="void MoveBullet"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="ae0b4635-c7fa-4852-89df-ffbb2380fc8c"
+        name="CCaptureCtrl"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <suppliersInternal>
+          <interfaceRealization
+            Id="e3f794e1-1404-4b95-8986-00b56577e55c">
+            <interfaceMoniker
+              Id="9631390c-d5e8-4b93-8002-be2f660cac29"
+              LastKnownName="Gamectrl"
+              LastKnownLocation="ClassPicture.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <targetEnds>
+          <association
+            Id="bf2a1fa9-269e-4523-8904-f54cf5c56c12"
+            isDerived="false"
+            sourceEndRoleName="CCaptureCtrl"
+            targetEndRoleName="CCapture"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="1d31ad9f-ffd0-4638-8f14-4b64299ad08c"
+              LastKnownName="CCapture"
+              LastKnownLocation="ClassPicture.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="847a9470-cb59-414b-a88b-017f206e902d"
+                  name="CCaptureCtrl"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="Composite"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="2667f406-9d23-416d-b5a7-5e1cade37d91"
+                  name="CCapture"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="true" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="a46d12b0-446f-4165-be32-29d183881c37"
+            isDerived="false"
+            sourceEndRoleName="CCaptureCtrl"
+            targetEndRoleName="CBack"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="55361bff-02af-4ac6-a729-309ed7fa3c80"
+              LastKnownName="CBack"
+              LastKnownLocation="ClassPicture.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="921abaf3-2603-404a-8811-034a23baa213"
+                  name="CCaptureCtrl"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="Composite"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="411c1c27-f6b5-40bf-84d7-0f0abb97a7f1"
+                  name="CBack"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="true" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property
+            Id="74d78b82-dd42-40ff-8007-066cb14ebe5b"
+            name="list&lt;CBullet*&gt;m_lstBullet"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="3ee62b4a-9511-441b-adb8-9152a410cc27"
+            name="CBack Back"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="e36d5098-bdc4-412e-b60b-db5a7b8e0094"
+            name="CCapture Capture"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="a8ecdc0e-29fc-4e66-9b7e-ebc5dc74962d"
+            name="list&lt;CFish*&gt;m_lstFish"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="a492f2b5-adb1-42c9-b3a8-fc14270b4712"
+            name="list&lt;CFish*&gt;m_lstBeated"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="b468f005-ac39-4f46-bfe5-fa5434115eb6"
+            name="DECLARE"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="7ba4b63c-4261-4dd0-bed8-9f3cbcd418f3"
+            name="virtual void OnCreateGame"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="25e4bd3e-ac74-4a78-8db9-73d5f3bb38c8"
+            name="virtual void OnGameDraw"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="7206f217-a437-4cd1-a615-65f4bf3b3e0f"
+            name="virtual void OnGameRun"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="d50414d6-2665-497b-80e5-e64b2f171861"
+                  name="WPARAM wparam"
+                  direction="In"
+                  isUnique="false" />
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="aba06ec5-44b5-4700-8502-4146d12bd8a2"
+            name="virtual void OnKeyUp"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="2c2152db-c3b6-488c-94e1-22125013cb5c"
+                  name="WPARAM wparam"
+                  direction="In"
+                  isUnique="false" />
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="c5c4328d-4477-40cd-b89d-570fa94d6143"
+            name="virtual void OnKeyDown"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="3b02a351-5669-4d45-bf27-db8c24051f53"
+                  name="WPARAM wparam"
+                  direction="In"
+                  isUnique="false" />
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="ede6b39b-d353-4c3a-926b-0b999e8cf3f1"
+            name="void ShowAllBullet"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="f9f5c284-4bde-4fd4-be76-0a9360e1f651"
+            name="void AllBulletMove"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="541fb8fe-ca6f-40eb-b4a4-10e2211b4f94"
+            name="void ShowFish"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="3594d4e1-d4b0-4bac-9af4-7b97ce678998"
+            name="void ShowFishMove"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="3e9caf24-611f-4b30-bb03-92d854cec7e6"
+            name="void ShowAllBeated"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="c885a3cb-ddf6-45ce-a307-4c10bc8579fc"
+        name="CFish"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="82e72c33-fec3-40f1-aea3-68ef0ccc4c10"
+            isDerived="false"
+            sourceEndRoleName="CFish"
+            targetEndRoleName="CCaptureCtrl"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="ae0b4635-c7fa-4852-89df-ffbb2380fc8c"
+              LastKnownName="CCaptureCtrl"
+              LastKnownLocation="ClassPicture.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="2ca2569b-a50a-41c6-9b12-676f9bfcc4f6"
+                  name="CFish"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="Shared"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="b43db8a1-e4d1-4c95-8685-774fb75ac59a"
+                  name="CCaptureCtrl"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="538f0847-53dc-4499-afac-2c64d980df40"
+            isDerived="false"
+            sourceEndRoleName="CFish"
+            targetEndRoleName="CCapture"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="1d31ad9f-ffd0-4638-8f14-4b64299ad08c"
+              LastKnownName="CCapture"
+              LastKnownLocation="ClassPicture.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="5e04a287-7c1e-420c-aaf3-b9bdf23b1b8b"
+                  name="CFish"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="f37f34b9-24a1-4b32-8057-040b44414a2e"
+                  name="CCapture"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="5b82c321-9334-469e-b39a-6ff2d5da55e1"
+            isDerived="false"
+            sourceEndRoleName="CFish"
+            targetEndRoleName="CBullet"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="65c41fb8-8881-47bb-98be-0eb2ec53b1c6"
+              LastKnownName="CBullet"
+              LastKnownLocation="ClassPicture.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="e808461b-66b4-4941-ba7d-593186c7e9af"
+                  name="CFish"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="68a0bba0-c42f-4aca-991f-f1a92af81513"
+                  name="CBullet"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributes>
+          <property
+            Id="5bb997c6-8dad-4744-94bc-887a51ae6228"
+            name="HBITMAP m_hBackFish"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="499cc45d-1133-4976-9709-209ce1dec8c1"
+            name="int m_nShowBitMapID"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="d1157c91-97b2-434a-a0de-077a8c0f753c"
+            name="int m_nBlood"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="adaf0ba7-6d5a-4d9b-9f2e-f62f36540f13"
+            name="int x"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="417a031a-1fd2-476f-9042-2e7c458a1109"
+            name="int y"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+        </ownedAttributes>
+        <ownedOperations>
+          <operation
+            Id="c9c0649f-6707-40e3-9ba9-e95f60c18578"
+            name="virtual void ShowFish"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="6ea2e78f-0a56-40d4-872f-2433922849b7"
+                  name="HDC hMemDC)"
+                  direction="In"
+                  isUnique="false">
+                  <defaultValue>
+                    <literalString
+                      Id="e2d99639-8823-4811-945c-2db8576b704b"
+                      name="DefaultValue"
+                      value="0(" />
+                  </defaultValue>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="448736c3-6f56-45b3-ba1b-e23cfad03a88"
+            name="virtual bool InitFish(HISTANCE hIns)=0"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="657360a7-dd55-4d4b-b987-bfd19a1e8f03"
+            name="virtual void MoveFish"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="53adedd8-5524-40e8-96f2-7a254e6c6a79"
+            name="virtual void IsBeated"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="5fc0e99a-6e19-41b5-8868-65d6628cebe9"
+                  name="CBullet*)"
+                  direction="In"
+                  isUnique="false">
+                  <defaultValue>
+                    <literalString
+                      Id="b465518c-2bcc-42ae-a264-d954ae628930"
+                      name="DefaultValue"
+                      value="0(" />
+                  </defaultValue>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="e9d35149-a81d-4df8-af5c-f13f8c0308c3"
+            name="bool IsBeated"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="be754f39-6e3c-4cf7-aba4-ed8e1809cb4b"
+            name="void DownBlood"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false" />
+        </ownedOperations>
+      </Interface>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="9631390c-d5e8-4b93-8002-be2f660cac29"
+        name="Gamectrl"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <activity
+        Id="49816ad5-f958-4e78-b88f-f9f06f61f858"
+        name="Activity1"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false"
+        isReentrant="false"
+        isReadOnly="false"
+        isSingleExecution="false">
+        <nodes>
+          <opaqueAction
+            Id="a714eac9-2c78-46ec-8b71-815879182814"
+            name="Action1"
+            isLeaf="false" />
+        </nodes>
+      </activity>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="b9b6ed70-7c47-4aa2-a52a-e9f4229bf107"
+        name="CBigFish"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <suppliersInternal>
+          <interfaceRealization
+            Id="345f13de-72be-44a5-a70f-128f0822989d">
+            <interfaceMoniker
+              Id="c885a3cb-ddf6-45ce-a307-4c10bc8579fc"
+              LastKnownName="CFish"
+              LastKnownLocation="ClassPicture.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="7aa68dc8-0ba4-4666-9f45-20aa762826a4"
+            name="virtual bool InitFish"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="53cb0d2a-e171-4f30-8cd9-81127df15352"
+                  name="HISTANCE hIns)"
+                  direction="In"
+                  isUnique="false">
+                  <defaultValue>
+                    <literalString
+                      Id="16c68e4d-d4a6-4f41-8dcf-5f4b4f91529c"
+                      name="DefaultValue"
+                      value="0(" />
+                  </defaultValue>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="0147ef48-1a09-49fd-a1cd-56dbf40237a6"
+            name="virtual void IsBeated"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="e60154c9-2683-469a-8d0f-dc87520940af"
+                  name="CBullet*)"
+                  direction="In"
+                  isUnique="false">
+                  <defaultValue>
+                    <literalString
+                      Id="4c363e83-378a-403d-aefb-b85489455e3c"
+                      name="DefaultValue"
+                      value="0(" />
+                  </defaultValue>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="745cf573-1427-46aa-8824-925c479966b2"
+            name="virtual void MoveFish"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="2d75eb56-2f0d-4356-b7bf-a8a0a44c6246"
+            name="virtual void ShowFish"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="5913926b-2f5d-42dd-ac17-a528f640c1c9"
+                  name="HDC hMemDC)"
+                  direction="In"
+                  isUnique="false">
+                  <defaultValue>
+                    <literalString
+                      Id="8959d382-57e3-41e8-9870-ad20c32349d3"
+                      name="DefaultValue"
+                      value="0(" />
+                  </defaultValue>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="a1acaa6c-7392-43fd-9c4a-2c3187107bd0"
+            name="void DownBlood"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="3fd90ea1-f9c1-421c-a832-25fe590d6749"
+            name="virtual bool InitFish(HISTANCE hIns)=0"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="2679025c-ed5a-4c42-a01d-d5e4bcfdaca3"
+            name="bool IsBeated"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="6821aedb-f548-4b3a-9ea6-5a740fb61f97"
+        name="CSmallFish"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <suppliersInternal>
+          <interfaceRealization
+            Id="3c1df4c7-9bdf-4924-921a-24120dee186e">
+            <interfaceMoniker
+              Id="c885a3cb-ddf6-45ce-a307-4c10bc8579fc"
+              LastKnownName="CFish"
+              LastKnownLocation="ClassPicture.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="7f3d50c3-fd01-453d-a06a-3b55765e1ff1"
+            name="virtual void ShowFish"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="878ecdb3-a6a3-4f89-bc36-095f52a34bd3"
+                  name="HDC hMemDC)"
+                  direction="In"
+                  isUnique="false">
+                  <defaultValue>
+                    <literalString
+                      Id="6cd83a4e-81de-4c91-ae91-1e0c1812e6ab"
+                      value="0(" />
+                  </defaultValue>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="cc3bb1b1-82c5-4352-b2d9-d137b81f5b25"
+            name="virtual bool InitFish(HISTANCE hIns)=0"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="34984c00-3693-487d-8989-19f7daa2a8cc"
+            name="virtual void MoveFish"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="55d547ee-b4f5-4c27-86e7-a084909049f4"
+            name="virtual void IsBeated"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="33bdbb62-6897-4b67-9fc6-9728d46347c8"
+                  name="CBullet*)"
+                  direction="In"
+                  isUnique="false">
+                  <defaultValue>
+                    <literalString
+                      Id="a7c7d2fa-fb87-4fb6-9875-052815d3c1e9"
+                      value="0(" />
+                  </defaultValue>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="76cdd823-8d0d-4dea-afb5-2dedc4cb6da7"
+            name="bool IsBeated"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="6fd66062-4a0d-4678-9960-c2009f08d16a"
+            name="void DownBlood"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="a51b3539-ecdd-461a-9420-e7cef7dca085"
+        name="CTurtle"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <suppliersInternal>
+          <interfaceRealization
+            Id="a8889013-d6e8-4687-b62f-b8c440979c7c">
+            <interfaceMoniker
+              Id="c885a3cb-ddf6-45ce-a307-4c10bc8579fc"
+              LastKnownName="CFish"
+              LastKnownLocation="ClassPicture.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="c6f298b1-0ff8-4b4c-b240-a7ce007d071a"
+            name="virtual void ShowFish"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="9cc897b6-4cbb-4bfe-b7d2-7426463f4d0d"
+                  name="HDC hMemDC)"
+                  direction="In"
+                  isUnique="false">
+                  <defaultValue>
+                    <literalString
+                      Id="751635bf-43ce-46b1-9077-620af507e3c0"
+                      value="0(" />
+                  </defaultValue>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="c4d15fbc-4d38-4b7f-af2d-1017d58e96d9"
+            name="virtual bool InitFish(HISTANCE hIns)=0"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="7f191e87-836a-4148-8cc3-8069b2a5cb0f"
+            name="virtual void MoveFish"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="25523355-640d-4a4f-9846-a48c0a94e6c7"
+            name="virtual void IsBeated"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="d92bbb20-6139-4bbb-a7a3-7de8c188f39b"
+                  name="CBullet*)"
+                  direction="In"
+                  isUnique="false">
+                  <defaultValue>
+                    <literalString
+                      Id="926a8d52-649d-4d8d-805e-89ae2171103b"
+                      value="0(" />
+                  </defaultValue>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="20b7e9fd-d090-4ffa-bdb9-d661e249b842"
+            name="bool IsBeated"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="eeea18d9-d61b-445a-8872-0b7b2226dcd5"
+            name="void DownBlood"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="ea57834d-2eea-4b95-a6ac-5e707cdb62f2"
+        name="CBlueWhale"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <suppliersInternal>
+          <interfaceRealization
+            Id="8a0c404b-2fb6-45e2-91bf-1148a802850d">
+            <interfaceMoniker
+              Id="c885a3cb-ddf6-45ce-a307-4c10bc8579fc"
+              LastKnownName="CFish"
+              LastKnownLocation="ClassPicture.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="30011766-c9b5-44d1-93f0-cea3d8888fbb"
+            name="virtual void ShowFish"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="6e8b235c-543e-473f-8655-cdfa94db779a"
+                  name="HDC hMemDC)"
+                  direction="In"
+                  isUnique="false">
+                  <defaultValue>
+                    <literalString
+                      Id="9e9a4818-6803-41fa-ba83-4a7f5b691e12"
+                      value="0(" />
+                  </defaultValue>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="53c1c6b9-ec74-47bb-9368-f77cdaf0173a"
+            name="virtual bool InitFish(HISTANCE hIns)=0"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="759830d5-3cc8-43a5-9d67-31612eef91de"
+            name="virtual void MoveFish"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="0600d8aa-1977-4f7e-9452-4bd0bad228a8"
+            name="virtual void IsBeated"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="4b67a2f4-59c5-4244-abf5-f82a62e28de1"
+                  name="CBullet*)"
+                  direction="In"
+                  isUnique="false">
+                  <defaultValue>
+                    <literalString
+                      Id="cdd40d1c-2a9c-4266-9747-07e1c64a74a8"
+                      value="0(" />
+                  </defaultValue>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="2326432b-fee6-4ca7-9207-437919bb3406"
+            name="bool IsBeated"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="cb60708b-957c-42d0-ada6-6f444d02edbf"
+            name="void DownBlood"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="68823862-b710-4b25-99c1-969af79b30d5"
+        name="CPurpleFish"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <suppliersInternal>
+          <interfaceRealization
+            Id="a295d7ff-ea45-439b-b20a-0e42b8ddb177">
+            <interfaceMoniker
+              Id="c885a3cb-ddf6-45ce-a307-4c10bc8579fc"
+              LastKnownName="CFish"
+              LastKnownLocation="ClassPicture.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="0eb46262-ba09-412d-8c5c-73f4a22839f5"
+            name="virtual void ShowFish"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="a7810fd1-de75-4489-a9cd-e4e2f181c135"
+                  name="HDC hMemDC)"
+                  direction="In"
+                  isUnique="false">
+                  <defaultValue>
+                    <literalString
+                      Id="40922a46-98d3-4159-968a-71fd98c9a5be"
+                      value="0(" />
+                  </defaultValue>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="d87ab256-cc64-49f8-9d3d-8815df633345"
+            name="virtual bool InitFish(HISTANCE hIns)=0"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="4ebc9f06-4619-4655-8780-8b619ecb0b87"
+            name="virtual void MoveFish"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="a231e069-8fea-4dcc-a9e1-ddf1b8800a94"
+            name="virtual void IsBeated"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="ca0cdd84-44f1-49cd-aa3e-cd6ee17b6d51"
+                  name="CBullet*)"
+                  direction="In"
+                  isUnique="false">
+                  <defaultValue>
+                    <literalString
+                      Id="e87ed0a8-c68d-4c69-a315-67270dd289c8"
+                      value="0(" />
+                  </defaultValue>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="114704aa-2a9d-47fd-81e3-aaa35fdb9bf1"
+            name="bool IsBeated"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="4d864f4c-1ae5-4896-86c6-8cc6b8da7f5c"
+            name="void DownBlood"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="c61a9870-e644-4755-b536-b1c8819f82f6"
+        name="CGoldenFish"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <suppliersInternal>
+          <interfaceRealization
+            Id="e1b89e14-6790-4697-b39d-446b387f57ee">
+            <interfaceMoniker
+              Id="c885a3cb-ddf6-45ce-a307-4c10bc8579fc"
+              LastKnownName="CFish"
+              LastKnownLocation="ClassPicture.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="e4298afe-15be-4ebc-af8a-ccbb1ca7bea1"
+            name="virtual void ShowFish"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="bac8479c-1490-4734-a270-3eacc1676359"
+                  name="HDC hMemDC)"
+                  direction="In"
+                  isUnique="false">
+                  <defaultValue>
+                    <literalString
+                      Id="ea2bcddf-91b8-47e0-bf75-1a0ea525d303"
+                      value="0(" />
+                  </defaultValue>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="b38f3d5f-8b7a-4f59-9e92-6c1c0a3e6a8b"
+            name="virtual bool InitFish(HISTANCE hIns)=0"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="eb1866af-49ee-4416-9de9-2060856a0acf"
+            name="virtual void MoveFish"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="fc9b5a00-73ca-44e6-9958-8c6c786ce64f"
+            name="virtual void IsBeated"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="661c6346-cf95-4185-93e5-0ce4e9f16221"
+                  name="CBullet*)"
+                  direction="In"
+                  isUnique="false">
+                  <defaultValue>
+                    <literalString
+                      Id="375f957b-26a9-4949-81ac-7a4e9296e9bd"
+                      value="0(" />
+                  </defaultValue>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="cd636596-9e00-464d-8fa2-8608b81b3cf2"
+            name="bool IsBeated"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="6692898c-8404-47ad-902b-44f6320ba327"
+            name="void DownBlood"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="647b2e14-cdc6-46bb-a843-453af18d9d4e"
+        name="CGobeFish"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <suppliersInternal>
+          <interfaceRealization
+            Id="d140b16c-b5e1-4f1f-a1c0-973a4e947a9e">
+            <interfaceMoniker
+              Id="c885a3cb-ddf6-45ce-a307-4c10bc8579fc"
+              LastKnownName="CFish"
+              LastKnownLocation="ClassPicture.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="9b3c6e54-d620-431f-88fb-730c6eaf472f"
+            name="virtual void ShowFish"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="14be837d-b55e-441e-b021-89bd2da87ab5"
+                  name="HDC hMemDC)"
+                  direction="In"
+                  isUnique="false">
+                  <defaultValue>
+                    <literalString
+                      Id="c5bfc681-695d-4934-a242-1e95fedf3196"
+                      value="0(" />
+                  </defaultValue>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="276c71ba-439e-45d6-bda6-86cf6b40a4da"
+            name="virtual bool InitFish(HISTANCE hIns)=0"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="7e909991-53dc-480a-b238-1155acd5ae5f"
+            name="virtual void MoveFish"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="b121ccbd-975e-46f3-b8b4-0208d203608d"
+            name="virtual void IsBeated"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="232c3bd9-ffc5-4923-afce-56087b340ace"
+                  name="CBullet*)"
+                  direction="In"
+                  isUnique="false">
+                  <defaultValue>
+                    <literalString
+                      Id="d700e99e-e6cc-416d-af7c-b25af3daed6a"
+                      value="0(" />
+                  </defaultValue>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="a92b638d-bcff-4a6b-a0cc-3a823821a3b7"
+            name="bool IsBeated"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="52bf3b2d-9b02-4f09-bff2-bfe8ea1b0cf8"
+            name="void DownBlood"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="9f67b8a5-4abd-4673-997f-92f3433f073a"
+        name="CFrog"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <suppliersInternal>
+          <interfaceRealization
+            Id="ab759319-6ca1-4cf4-aa72-0abb7de7d878">
+            <interfaceMoniker
+              Id="c885a3cb-ddf6-45ce-a307-4c10bc8579fc"
+              LastKnownName="CFish"
+              LastKnownLocation="ClassPicture.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="5d8a471d-84b5-4f25-aa24-7de3eccf65c6"
+            name="virtual void ShowFish"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="246a9705-7e81-4e42-88d6-cebfb3dc4eef"
+                  name="HDC hMemDC)"
+                  direction="In"
+                  isUnique="false">
+                  <defaultValue>
+                    <literalString
+                      Id="eae0a112-648b-4390-82a8-664dc6312c52"
+                      value="0(" />
+                  </defaultValue>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="9aab6bf9-d4f1-4222-be79-122d2673ee2c"
+            name="virtual bool InitFish(HISTANCE hIns)=0"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="93b07a47-f399-4f41-a3d2-2d413e9d55de"
+            name="virtual void MoveFish"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="0b653d08-40ca-4b50-a1e7-c84819f68117"
+            name="virtual void IsBeated"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="82565c96-5043-41fb-85e6-084adb93ffdc"
+                  name="CBullet*)"
+                  direction="In"
+                  isUnique="false">
+                  <defaultValue>
+                    <literalString
+                      Id="0ba61ba0-3607-4ba6-aa05-7dd4f1dd3a44"
+                      value="0(" />
+                  </defaultValue>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="2a698038-ddec-42d3-9e86-e7d1af281a81"
+            name="bool IsBeated"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="9ee84bc6-d010-453f-a645-721a2934992b"
+            name="void DownBlood"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="d5d3c6f6-8652-44b9-a664-afb2158a1595"
+        name="CTuna"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <suppliersInternal>
+          <interfaceRealization
+            Id="22f7acf1-1800-4a5c-ab98-efa779368150">
+            <interfaceMoniker
+              Id="c885a3cb-ddf6-45ce-a307-4c10bc8579fc"
+              LastKnownName="CFish"
+              LastKnownLocation="ClassPicture.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="b021fb74-8970-4d31-a9d2-8852d7aa2624"
+            name="virtual void ShowFish"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="9885708d-7cde-4996-9862-2816876a5acb"
+                  name="HDC hMemDC)"
+                  direction="In"
+                  isUnique="false">
+                  <defaultValue>
+                    <literalString
+                      Id="548ea436-f152-462b-a14e-eece47688060"
+                      value="0(" />
+                  </defaultValue>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="8131254e-afc1-45be-86f5-26accd95726d"
+            name="virtual bool InitFish(HISTANCE hIns)=0"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="94714acc-a83d-4bdf-a359-4f9e5c90a424"
+            name="virtual void MoveFish"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="4271b326-95d4-4581-9701-c2dc619378bd"
+            name="virtual void IsBeated"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="4f614cbb-10de-47cb-9f5a-2b5d93f27a52"
+                  name="CBullet*)"
+                  direction="In"
+                  isUnique="false">
+                  <defaultValue>
+                    <literalString
+                      Id="64c228e4-66d8-4621-b6a2-963f5d720bd7"
+                      value="0(" />
+                  </defaultValue>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="c02058f8-f137-4ee5-8361-4c2b51a0a50f"
+            name="bool IsBeated"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="87f49ec3-bb67-4414-bcdb-9812c0d238cf"
+            name="void DownBlood"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="baa9de0f-5167-4c4a-9b91-a961ad649247"
+        name="CElectricRay"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <suppliersInternal>
+          <interfaceRealization
+            Id="a316373f-7d41-4f1d-a903-42ca7b0c9a01">
+            <interfaceMoniker
+              Id="c885a3cb-ddf6-45ce-a307-4c10bc8579fc"
+              LastKnownName="CFish"
+              LastKnownLocation="ClassPicture.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="adb2ddd4-8cfd-43fc-b124-0bc786c8ff66"
+            name="virtual void ShowFish"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="4290be65-0969-4748-ae23-9dd016032f73"
+                  name="HDC hMemDC)"
+                  direction="In"
+                  isUnique="false">
+                  <defaultValue>
+                    <literalString
+                      Id="f8276bfb-3fea-44ac-8f0e-6ab1fda040c1"
+                      value="0(" />
+                  </defaultValue>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="26fe9c3f-fb0b-4039-bdaa-82c08cb93a76"
+            name="virtual bool InitFish(HISTANCE hIns)=0"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="a1b6c4d9-822e-4c56-9e46-85a5020e98e0"
+            name="virtual void MoveFish"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="b8b8fc23-9e3b-443c-8fcc-5cced69972ac"
+            name="virtual void IsBeated"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="bb4e99f8-30e9-4b2d-913c-ae243988dfab"
+                  name="CBullet*)"
+                  direction="In"
+                  isUnique="false">
+                  <defaultValue>
+                    <literalString
+                      Id="355f375d-eea6-4ef9-8b40-c2767e86bb96"
+                      value="0(" />
+                  </defaultValue>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="b2df682a-42cc-4ca1-a267-936c7c549300"
+            name="bool IsBeated"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="f04fe17f-34c1-4aec-b3b8-d5894d7a362f"
+            name="void DownBlood"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="981e0fda-bfd3-4b8f-ab5b-b6ce21db9afa"
+        name="CMermaid"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <suppliersInternal>
+          <interfaceRealization
+            Id="fbe39379-e21b-44b3-8f84-47800a0fce68">
+            <interfaceMoniker
+              Id="c885a3cb-ddf6-45ce-a307-4c10bc8579fc"
+              LastKnownName="CFish"
+              LastKnownLocation="ClassPicture.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="302edfe7-a7ab-4043-9754-7133e12c29ff"
+            name="virtual void ShowFish"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="946261ee-ed80-49ad-b525-929634f81a0a"
+                  name="HDC hMemDC)"
+                  direction="In"
+                  isUnique="false">
+                  <defaultValue>
+                    <literalString
+                      Id="5b707f24-a862-4731-bba4-6a2d8aa83224"
+                      value="0(" />
+                  </defaultValue>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="9186ed44-5f17-46ac-a6be-61a5f0782f30"
+            name="virtual bool InitFish(HISTANCE hIns)=0"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="b2d274b0-647c-4f1e-bb11-af9b5c11ea0f"
+            name="virtual void MoveFish"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="7175d375-2add-40d0-a124-0c4f8c9c94f8"
+            name="virtual void IsBeated"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="58d01255-e570-46d7-8478-8c851e74a515"
+                  name="CBullet*)"
+                  direction="In"
+                  isUnique="false">
+                  <defaultValue>
+                    <literalString
+                      Id="b640b3c7-a449-4e6a-bf1c-3628cac5f428"
+                      value="0(" />
+                  </defaultValue>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="83218d22-169a-4677-bdbb-2b71b7e816ff"
+            name="bool IsBeated"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="1d6486ed-f3c6-46c4-87af-32f533f883dd"
+            name="void DownBlood"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="605392b2-4879-41b1-a315-6cd404d7487a"
+        name="CGoldenDragon"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <suppliersInternal>
+          <interfaceRealization
+            Id="43309fa4-24d4-4cd5-8764-5ad952c45918">
+            <interfaceMoniker
+              Id="c885a3cb-ddf6-45ce-a307-4c10bc8579fc"
+              LastKnownName="CFish"
+              LastKnownLocation="ClassPicture.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="558bf16e-13d9-456b-ab28-8abc3e92ef3a"
+            name="virtual void ShowFish"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="f1ebf4cc-47a4-4e29-adbd-036d10e5b237"
+                  name="HDC hMemDC)"
+                  direction="In"
+                  isUnique="false">
+                  <defaultValue>
+                    <literalString
+                      Id="4d2905d8-ffc5-4bb6-a621-3c4017c2a0f6"
+                      value="0(" />
+                  </defaultValue>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="4a6b6eac-ef5a-4f61-a1a2-49736b53f89e"
+            name="virtual bool InitFish(HISTANCE hIns)=0"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="fbf7aece-5d1d-43ea-961d-cc3562ec7e1e"
+            name="virtual void MoveFish"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="271229a3-1710-4a5f-9169-7d23487a6318"
+            name="virtual void IsBeated"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="54cc5c59-2b29-4cc7-9133-fc249a0616ff"
+                  name="CBullet*)"
+                  direction="In"
+                  isUnique="false">
+                  <defaultValue>
+                    <literalString
+                      Id="c598adbc-ce47-428c-821e-23ae743cfba7"
+                      value="0(" />
+                  </defaultValue>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="857830a7-8549-460a-b445-00944564ea27"
+            name="bool IsBeated"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="d27c8895-68f7-4089-a128-57ff5736b035"
+            name="void DownBlood"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+  <primitiveType
+    Id="220a3521-e091-4221-bae9-3ef9018e845c"
+    name="Integer"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+    name="Boolean"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+    name="String"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="3ab42e7d-4969-445a-b209-471f5cb8209c"
+    name="UnlimitedNatural"
+    isAbstract="false"
+    isLeaf="false" />
+</modelStoreModel>
