@@ -1,1 +1,7 @@
 ![image](https://github.com/DreamTeamWangbowen/MyGitHub/blob/master/1.png)
+![image](https://github.com/DreamTeamWangbowen/MyGitHub/blob/master/2.png)
+![image](https://github.com/DreamTeamWangbowen/MyGitHub/blob/master/3.png)
+![image](https://github.com/DreamTeamWangbowen/MyGitHub/blob/master/4.png)
+![image](https://github.com/DreamTeamWangbowen/MyGitHub/blob/master/5.png)
+![image](https://github.com/DreamTeamWangbowen/MyGitHub/blob/master/6.png)
+![image](https://github.com/DreamTeamWangbowen/MyGitHub/blob/master/7.png)
