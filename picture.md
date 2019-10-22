@@ -1,3 +1,5 @@
+#如果hub没有把图片load出来，也可以点击下面这条连接查看视频分析器效果#
+https://blog.csdn.net/permanent_chenyu/article/details/102688805
 ![image](https://github.com/DreamTeamWangbowen/MyGitHub/blob/master/1.png)
 ![image](https://github.com/DreamTeamWangbowen/MyGitHub/blob/master/2.png)
 ![image](https://github.com/DreamTeamWangbowen/MyGitHub/blob/master/3.png)
