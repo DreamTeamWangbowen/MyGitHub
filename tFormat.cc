@@ -9,7 +9,7 @@ uint32_t tFormat::format_chars(const char * const first, const char * const last
         return 0;
     }
 
-    register const char * next = first;
+    register char * next = first;
 
     register uint32_t value = 0;
     do {
