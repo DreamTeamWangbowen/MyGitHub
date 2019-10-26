@@ -23,7 +23,7 @@ uint32_t tFormat::format_chars(const char * const first, const char * const last
 char* tFormat::format_uint(register uint32_t value)
 {
     char _buffer[BUFFER_SIZE];
-	bzero(_buffer, BUFFER_SIZE);
+    bzero(_buffer, BUFFER_SIZE);
     register char* ptr = _buffer + (BUFFER_SIZE - 1);
     register unsigned index;
     while (value >= 100) {
