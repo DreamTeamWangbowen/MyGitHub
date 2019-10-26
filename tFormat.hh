@@ -47,11 +47,8 @@ class tFormat {
 public:
 	tFormat() 
 	{
-		bzero(_buffer, BUFFER_SIZE);
 	}
 	~tFormat() = default;
-private:
-	char _buffer[BUFFER_SIZE];
 public:
 	char* format_uint(uint32_t value);
 	uint32_t format_chars(const char * const first, const char * const last);
